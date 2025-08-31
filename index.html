@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikita Bhandari | Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9fbfd; /* Light neutral background */
+      color: #333;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #c4d7e8; /* Light blue accent */
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.9rem;
+    }
+
+    section {
+      max-width: 1100px; /* Wider container */
+      margin: 2rem auto;
+      padding: 2.5rem;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      text-align: center;
+      color: #444;
+      margin-bottom: 1.6rem;
+    }
+
+    /* About Section */
+    .about {
+      text-align: center;
+    }
+
+    .about img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid #c4d7e8;
+    }
+
+    .about p {
+      max-width: 850px;
+      margin: 0 auto;
+      text-align: justify;
+      font-size: 1rem;
+    }
+
+    /* Skills Section */
+    .skills-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .skills-box {
+      background: #e9f1f6; /* Light blue box */
+      padding: 1.2rem;
+      border-radius: 10px;
+    }
+
+    .skills-box h3 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      background: #fff;
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      border: 1px solid #c4d7e8;
+      transition: background 0.3s;
+    }
+
+    .tag:hover {
+      background: #c4d7e8;
+      color: #fff;
+    }
+
+    /* Contact Section */
+    .contact p {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .contact-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+
+    .contact-buttons a {
+      text-decoration: none;
+      padding: 0.4rem 0.9rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      background: #c4d7e8;
+      color: #333;
+      border: 1px solid #99b9d3;
+      transition: background 0.3s ease;
+    }
+
+    .contact-buttons a:hover {
+      background: #99b9d3;
+      color: #fff;
+    }
+
+    /* Back to Top */
+    .back-to-top {
+      display: block;
+      width: fit-content;
+      margin: 2rem auto 0 auto;
+      text-decoration: none;
+      background: #c4d7e8;
+      color: #333;
+      padding: 0.4rem 0.9rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid #99b9d3;
+      transition: background 0.3s;
+    }
+
+    .back-to-top:hover {
+      background: #99b9d3;
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    /* Back to top button */
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #c4d7e8;
+      color: black;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 50px;
+      cursor: pointer;
+      display: none;
+      font-size: 0.9rem;
+    }
+    #backToTop:hover 
+    {
+    background: #c4d7e8;
+    }
+
+  </style>
+</head>
+<body id="top">
+
+  <!-- Header -->
+  <header>
+    <h1>Nikita Bhandari</h1>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <img src="https://via.placeholder.com/130" alt="No🙅‍♀️image😿">
+    <h2>About Me</h2>
+    <p>Hello! I'm Nikita Bhandari, a third-year Networking and Cybersecurity student passionate about networking, DevOps, and IT systems. My focus is on building secure, efficient, and scalable infrastructures while continuously learning and growing in the tech world. I enjoy exploring the latest technologies in cloud computing, automation, and cybersecurity practices. My academic journey has given me strong fundamentals in routing, switching, and network security, and I aim to further develop my expertise by collaborating on projects and learning from industry professionals. Outside of academics, I enjoy problem-solving, learning new tools, and sharing knowledge with peers to grow together in the tech community.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section>
+    <h2>Skills & Interests</h2>
+    <div class="skills-container">
+      <div class="skills-box">
+        <h3>Technical Skills</h3>
+        <div class="tag-list">
+          <span class="tag">Networking</span>
+          <span class="tag">Switching</span>
+          <span class="tag">Cybersecurity</span>
+          <span class="tag">Cloud Computing</span>
+          <span class="tag">Linux</span>
+        </div>
+      </div>
+      <div class="skills-box">
+        <h3>Interests</h3>
+        <div class="tag-list">
+          <span class="tag">Network Security</span>
+          <span class="tag">DevOps</span>
+          <span class="tag">Cloud Architecture</span>
+          <span class="tag">Automation</span>
+          <span class="tag">Infrastructure</span>
+          <span class="tag">IT Administrator</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>I'm always open to connecting with fellow students, IT professionals, and anyone passionate about networking and cybersecurity. Let's collaborate and grow together!</p>
+    <div class="contact-buttons">
+    <a href="nikitachhettri17@gmail.com">📧 Email</a>
+    <a href="https://github.com/Niki-ta0" target="_blank">💻 GitHub</a>
+    <a href="https://www.linkedin.com/in/nikita-bhandari-~-/" target="_blank">🔗 LinkedIn</a>
+    </div>
+  </section>
+    <button id="backToTop">🐱 Top</button>
+
+  <script>
+    const backToTop = document.getElementById("backToTop");
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTop.style.display = "block";
+      } else {
+        backToTop.style.display = "none";
+      }
+    };
+
+    backToTop.onclick = function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+  </script>
+
+  <!-- Footer -->
+  <footer>
+    © 2024 Nikita Bhandari. Built with passion for technology.
+  </footer>
+
+</body>
+</html>
